@@ -72,29 +72,30 @@
 # lion1.eat()
 
 class Vehicle
-	def initialize(brand, model, year, name)
+	def initialize(brand, model, year,) #removed name method
 		@brand = brand
 		@model = model
 		@year = year
-		@name = name
+		# @name = name
 	
 	end
 
 	def oil_change
 		@brand = 100
-		puts 'you just performed an oil change on your ' + @name
+		puts 'you just performed an oil change on your '   
+
 			
 	end
 
 	def tire_rotation
 		@model = 20
-		puts 'you just rotated your tires on your ' + @name
+		puts 'you just rotated your tires on your ' 
 		
 	end
 
 	def tire_change
 		@year = 50
-		puts 'you just changed your tires on your ' + @name
+		puts 'you just changed your tires on your ' 
 		
 	end
 
@@ -102,7 +103,7 @@ class Vehicle
 		@brand = 20
 		@model = 30
 		@year = 20
-		puts 'your highway_drive is very low for your ' + @name
+		puts 'your highway_drive is very low for your ' 
 		
 	end
 
